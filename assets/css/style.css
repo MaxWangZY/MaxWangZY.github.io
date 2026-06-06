@@ -161,6 +161,32 @@ p {
   gap: 34px;
 }
 
+.activity-list {
+  display: grid;
+  gap: 0;
+  list-style: none;
+  margin: 8px 0 0;
+  padding: 0;
+}
+
+.activity-list li {
+  display: grid;
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 18px;
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+
+.activity-list span {
+  color: var(--accent-strong);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.activity-list p {
+  margin: 0;
+}
+
 .post-list {
   list-style: none;
   margin: 0;
@@ -215,5 +241,10 @@ p {
 
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .activity-list li {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }

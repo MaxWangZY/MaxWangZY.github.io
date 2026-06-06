@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Writing
-permalink: /writing/
+title: Blog
+permalink: /blog/
 ---
 
-# Writing
+# Blog
 
 {% if site.posts.size > 0 %}
   <ul class="post-list">

@@ -6,8 +6,8 @@ This is a GitHub Pages site built with Jekyll.
 
 - Home page: `index.md`
 - About page: `about.md`
-- Projects page: `projects.md`
-- Writing index: `writing.md`
+- Experience page: `experience.md`
+- Blog index: `blog.md`
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
 - Site settings: `_config.yml`
 - Styles: `assets/css/style.css`

@@ -6,7 +6,7 @@ email: zmaxwang@umich.edu
 github_username: MaxWangZY
 
 markdown: kramdown
-permalink: /writing/:year/:month/:day/:title/
+permalink: /blog/:year/:month/:day/:title/
 
 exclude:
   - Gemfile
