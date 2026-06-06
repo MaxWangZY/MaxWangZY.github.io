@@ -3,13 +3,10 @@ layout: default
 title: Home
 ---
 
-<section class="hero hero-split">
-  <div>
-    <h1>Zhengyang Wang</h1>
-    <p class="lede">"Optimization is everywhere."</p>
-  </div>
+<section class="hero">
+  <h1>Zhengyang Wang</h1>
+  <p class="lede">"Optimization is everywhere."</p>
   <div class="intro">
-    <h2>Intro</h2>
     <p>
       I go by Max. I am interested in optimization as both a research language
       and a practical way to understand markets. This site collects my work in
@@ -31,12 +28,14 @@ title: Home
               <time>{{ artifact.date }}</time>
             {% endif %}
           </div>
-          <h3><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></h3>
-          <div class="artifact-excerpt">
-            {% for paragraph in artifact.summary %}
-              <p>{{ paragraph }}</p>
-            {% endfor %}
-            <a class="artifact-link" href="{{ artifact.url | relative_url }}">{{ artifact.cta }}</a>
+          <div class="artifact-body">
+            <h3><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></h3>
+            <div class="artifact-excerpt">
+              {% for paragraph in artifact.preview %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+              <a class="artifact-link" href="{{ artifact.url | relative_url }}">{{ artifact.cta }}</a>
+            </div>
           </div>
         </article>
       {% endfor %}
