@@ -4,47 +4,57 @@ title: Home
 ---
 
 <section class="hero">
-  <p class="eyebrow">Personal website</p>
   <h1>Max Wang</h1>
   <p class="lede">"Optimization is everywhere."</p>
-  <div class="actions" aria-label="Primary links">
-    <a class="button primary" href="{{ '/experience/' | relative_url }}">Experience</a>
-    <a class="button" href="mailto:{{ site.email }}">Email</a>
-  </div>
 </section>
 
 <section class="section">
-  <h2>Recent</h2>
-  <ul class="activity-list">
-    <li>
-      <span>Research</span>
-      <p>Studying optimization and operations research through models, algorithms, and decision systems.</p>
-    </li>
-    <li>
-      <span>Markets</span>
-      <p>Researching AI infrastructure, compute ecosystems, and the companies shaping the next platform cycle.</p>
-    </li>
-    <li>
-      <span>Portfolio</span>
-      <p>Building a personal investment thesis around durable value in the NVIDIA Vera Rubin ecosystem.</p>
-    </li>
-  </ul>
+  <h2>Intro</h2>
+  <p>
+    I am interested in optimization as both a research language and a practical
+    way to understand markets. This site collects my work in operations
+    research, technical systems, and market research around AI infrastructure.
+  </p>
 </section>
+
+{% if site.data.artifacts.size > 0 %}
+  <section class="section">
+    <h2>Recent</h2>
+    <div class="artifact-list" data-artifact-list>
+      {% for artifact in site.data.artifacts limit: 5 %}
+        <article class="artifact" data-artifact>
+          <div class="artifact-row">
+            <a class="artifact-type" href="{{ artifact.url | relative_url }}">[{{ artifact.label | downcase }}]</a>
+            <button class="artifact-toggle" type="button" aria-expanded="false">
+              {{ artifact.title }}
+            </button>
+          </div>
+          <div class="artifact-detail" hidden>
+            {% for paragraph in artifact.summary %}
+              <p>{{ paragraph }}</p>
+            {% endfor %}
+            <a class="artifact-link" href="{{ artifact.url | relative_url }}">{{ artifact.cta }}</a>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endif %}
 
 <section class="section grid">
   <article>
     <h2>Experience</h2>
     <p>
-      Selected research, technical projects, and market-oriented work that
-      connect optimization, systems, and capital.
+      Research, market work, portfolio theses, and mini projects organized as a
+      broader record of what I am building and studying.
     </p>
     <a href="{{ '/experience/' | relative_url }}">View experience</a>
   </article>
   <article>
     <h2>Blog</h2>
     <p>
-      Notes on software, research, systems, and the occasional idea that becomes
-      clearer after being written down.
+      Longer notes behind selected artifacts, including market research,
+      technical reflections, and ideas that need more room.
     </p>
     <a href="{{ '/blog/' | relative_url }}">Read posts</a>
   </article>
