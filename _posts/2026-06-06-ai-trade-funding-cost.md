@@ -5,7 +5,7 @@ title: "The AI Trade Met Its Funding Cost"
 
 # June 6, 2026: The AI Trade Met Its Funding Cost
 
-Author: Max Wang  
+Author: Max  
 Date: June 6, 2026
 
 ## Summary

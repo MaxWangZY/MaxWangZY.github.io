@@ -3,33 +3,36 @@ layout: default
 title: Home
 ---
 
-<section class="hero">
-  <h1>Max Wang</h1>
-  <p class="lede">"Optimization is everywhere."</p>
-</section>
-
-<section class="section">
-  <h2>Intro</h2>
-  <p>
-    I am interested in optimization as both a research language and a practical
-    way to understand markets. This site collects my work in operations
-    research, technical systems, and market research around AI infrastructure.
-  </p>
+<section class="hero hero-split">
+  <div>
+    <h1>Zhengyang Wang</h1>
+    <p class="lede">"Optimization is everywhere."</p>
+  </div>
+  <div class="intro">
+    <h2>Intro</h2>
+    <p>
+      I go by Max. I am interested in optimization as both a research language
+      and a practical way to understand markets. This site collects my work in
+      operations research, technical systems, and market research around AI
+      infrastructure.
+    </p>
+  </div>
 </section>
 
 {% if site.data.artifacts.size > 0 %}
   <section class="section">
     <h2>Recent</h2>
-    <div class="artifact-list" data-artifact-list>
-      {% for artifact in site.data.artifacts limit: 5 %}
-        <article class="artifact" data-artifact>
-          <div class="artifact-row">
-            <a class="artifact-type" href="{{ artifact.url | relative_url }}">[{{ artifact.label | downcase }}]</a>
-            <button class="artifact-toggle" type="button" aria-expanded="false">
-              {{ artifact.title }}
-            </button>
+    <div class="artifact-list">
+      {% for artifact in site.data.artifacts limit: 3 %}
+        <article class="artifact">
+          <div class="artifact-meta">
+            <a class="artifact-type" href="{{ artifact.url | relative_url }}">{{ artifact.label | downcase }}</a>
+            {% if artifact.date %}
+              <time>{{ artifact.date }}</time>
+            {% endif %}
           </div>
-          <div class="artifact-detail" hidden>
+          <h3><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></h3>
+          <div class="artifact-excerpt">
             {% for paragraph in artifact.summary %}
               <p>{{ paragraph }}</p>
             {% endfor %}
@@ -41,7 +44,7 @@ title: Home
   </section>
 {% endif %}
 
-<section class="section grid">
+<section class="section link-grid grid">
   <article>
     <h2>Experience</h2>
     <p>

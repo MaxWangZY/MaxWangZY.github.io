@@ -1,4 +1,4 @@
-# Max Wang personal website
+# Zhengyang Wang personal website
 
 This is a GitHub Pages site built with Jekyll.
 
@@ -11,7 +11,6 @@ This is a GitHub Pages site built with Jekyll.
 - Homepage artifacts: `_data/artifacts.yml`
 - Site settings: `_config.yml`
 - Styles: `assets/css/style.css`
-- Interactions: `assets/js/artifacts.js`
 
 ## Add a blog post
 
