@@ -1,0 +1,14 @@
+title: Max Wang
+description: Personal website and project notes.
+url: "https://maxwangzy.github.io"
+baseurl: ""
+email: zmaxwang@umich.edu
+github_username: MaxWangZY
+
+markdown: kramdown
+permalink: /writing/:year/:month/:day/:title/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
