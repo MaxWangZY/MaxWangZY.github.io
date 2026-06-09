@@ -1,5 +1,16 @@
 - type: blog
   label: Blog
+  title: The AI Trade Is Waiting on Macro
+  date: Jun 9, 2026
+  url: /blog/2026/06/09/ai-trade-waiting-on-macro/
+  preview:
+    - The market recovered some ground on Monday, while the main question remained open. After the Nasdaq fell 4.18% on Friday, June 5, it rebounded 0.9% on Monday, June 8. The S&P 500 rose 0.3%, while the Dow fell 0.2%.
+    - The rebound was concentrated in the same AI and semiconductor stocks that were hit hardest on Friday. The PHLX Semiconductor Index rose 5.6%, which showed that investors were still willing to buy the AI infrastructure trade on weakness.
+    - The setup on June 9 is more complicated. The market is now waiting for three things at once: the May CPI report on Wednesday, Kevin Warsh's first FOMC meeting as Fed chair, and the expected SpaceX IPO later this week.
+  cta: Read the post
+
+- type: blog
+  label: Blog
   title: The AI Trade Met Its Funding Cost
   date: Jun 6, 2026
   url: /blog/2026/06/06/ai-trade-funding-cost/
