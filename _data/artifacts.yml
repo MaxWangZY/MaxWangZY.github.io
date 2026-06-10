@@ -1,21 +1,42 @@
 - type: blog
   label: Blog
-  title: The AI Trade Is Waiting on Macro
+  title: Macro Sets the Price
   date: Jun 9, 2026
-  url: /blog/2026/06/09/ai-trade-waiting-on-macro/
+  url: /blog/2026/06/09/macro-sets-the-price/
   preview:
-    - The market recovered some ground on Monday, while the main question remained open. After the Nasdaq fell 4.18% on Friday, June 5, it rebounded 0.9% on Monday, June 8. The S&P 500 rose 0.3%, while the Dow fell 0.2%.
-    - The rebound was concentrated in the same AI and semiconductor stocks that were hit hardest on Friday. The PHLX Semiconductor Index rose 5.6%, which showed that investors were still willing to buy the AI infrastructure trade on weakness.
-    - The setup on June 9 is more complicated. The market is now waiting for three things at once: the May CPI report on Wednesday, Kevin Warsh's first FOMC meeting as Fed chair, and the expected SpaceX IPO later this week.
-  cta: Read the post
+    - "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
 
 - type: blog
   label: Blog
-  title: The AI Trade Met Its Funding Cost
+  title: Who Pays for Compute?
   date: Jun 6, 2026
-  url: /blog/2026/06/06/ai-trade-funding-cost/
+  url: /blog/2026/06/06/who-pays-for-compute/
   preview:
     - The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute.
-    - On June 5, 2026, the Nasdaq Composite fell 4.18%, its worst single-day percentage loss since April 2025. The S&P 500 fell 2.64%, and the Dow fell 1.35%.
-    - The pressure was concentrated in technology and semiconductors. Nvidia fell 6.2%, Broadcom fell 7.9%, and Micron fell 13.25%, making Micron the worst performer in the S&P 500.
-  cta: Read the post
+
+- type: research
+  label: Research
+  title: Fuel Dispatch Optimization
+  date: Mar 2026 - Present
+  url: /experience/
+  preview:
+    - Mixed-integer dispatch planning for 700+ fuel stations, modeling operational constraints and solver performance with HiGHS.
+
+- type: research
+  label: Research
+  title: Multi-Mediator Routing Games
+  date: Jan 2026 - Present
+  url: /experience/
+  preview:
+    - Nonatomic routing games with strategic mediators, private recommendations, and obedience constraints.
+
+- type: research
+  label: Research
+  title: Black Box Inverse Solver
+  date: Jan 2026 - May 2026
+  url: /experience/
+  preview:
+    - Meta-learning for uncertainty quantification in PDE inverse problems and calibrated joint confidence intervals.
+
+- more: true
+  url: /experience/

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "The AI Trade Is Waiting on Macro"
+title: "Macro Sets the Price"
+description: "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
 ---
 
-# June 9, 2026: The AI Trade Is Waiting on Macro
+# Macro Sets the Price
 
 Author: Max  
 Date: June 9, 2026

@@ -6,24 +6,154 @@ permalink: /experience/
 
 # Experience
 
-This page collects selected research, technical work, and market-oriented
-thinking. Keep each entry concrete: what question you explored, what method you
-used, and what changed in your view after doing the work.
+<p class="page-intro">
+  A concise companion to my CV, focused on research, projects, and work that
+  connect optimization, technical systems, and market analysis.
+</p>
+
+<p class="page-action">
+  <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">View full CV</a>
+</p>
 
 ## Research
 
-**Operations research / optimization**  
-Add your most relevant research experience here. A strong entry can describe the
-problem setting, the optimization model or algorithmic approach, and the result.
+<div class="entry-list">
+  <article class="entry">
+    <div class="entry-meta">Mar 2026 - Present</div>
+    <div class="entry-body">
+      <h3>Fuel Dispatch Optimization</h3>
+      <p>
+        Developing a mixed-integer optimization framework for fuel dispatch
+        planning across 700+ service stations, with truck compartments, depot
+        eligibility, product compatibility, fleet type, and operational
+        constraints solved using HiGHS.
+      </p>
+    </div>
+  </article>
 
-## Market Research
+  <article class="entry">
+    <div class="entry-meta">Jan 2026 - Present</div>
+    <div class="entry-body">
+      <h3>Multi-Mediator Routing Games</h3>
+      <p>
+        Studying nonatomic routing games with multiple strategic mediators,
+        private route recommendations, and obedience constraints, including
+        mediator fragmentation on Braess-network experiments.
+      </p>
+    </div>
+  </article>
 
-**AI infrastructure and compute ecosystems**  
-Add your current investment research here, including portfolio themes, company
-ecosystems, and the core thesis you are tracking.
+  <article class="entry">
+    <div class="entry-meta">Jan 2026 - May 2026</div>
+    <div class="entry-body">
+      <h3>Black Box Inverse Solver</h3>
+      <p>
+        Built a meta-learning workflow for uncertainty quantification in PDE
+        inverse problems, comparing Transformer, Set Transformer, and Set2Seq
+        models for calibrated joint confidence intervals.
+      </p>
+    </div>
+  </article>
 
-## Technical Projects
+  <article class="entry">
+    <div class="entry-meta">Jun 2025 - Jan 2026</div>
+    <div class="entry-body">
+      <h3>Clinical NLP and Privacy-Preserving Methods</h3>
+      <p>
+        Built clinical NLP pipelines on MIMIC-IV data and reviewed
+        privacy-enhancing technologies in omics research, with emphasis on
+        reproducibility and privacy-preserving machine learning.
+      </p>
+    </div>
+  </article>
 
-**Project name**  
-Add selected technical projects here when they support the larger story of your
-research, systems thinking, or investing interests.
+  <article class="entry">
+    <div class="entry-meta">Dec 2024 - Apr 2025</div>
+    <div class="entry-body">
+      <h3>Dynamic Pricing under Nonlinear Demand</h3>
+      <p>
+        Modeled competitive online pricing as a repeated seller-buyer game and
+        simulated regret, price convergence, and learning behavior under
+        nonlinear demand.
+      </p>
+    </div>
+  </article>
+</div>
+
+## Projects
+
+<div class="entry-list">
+  <article class="entry">
+    <div class="entry-meta">Apr 2026</div>
+    <div class="entry-body">
+      <h3>Optimization Method Benchmarks</h3>
+      <p>
+        Benchmarked gradient descent, Newton, quasi-Newton, and trust-region
+        methods on unconstrained optimization problems, comparing convergence
+        behavior and runtime tradeoffs.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="entry-meta">Nov 2025</div>
+    <div class="entry-body">
+      <h3>Adam Revisited</h3>
+      <p>
+        Implemented SGD, AdaGrad, RMSProp, Adam, and AMSGrad from scratch and
+        analyzed step-size behavior, second-moment dynamics, and convergence
+        stability.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="entry-meta">Jan 2025 - Apr 2025</div>
+    <div class="entry-body">
+      <h3>Mini AlphaGo</h3>
+      <p>
+        Developed Go game-state preprocessing, a dual-head residual network,
+        and Monte Carlo Tree Search with neural priors and value
+        backpropagation.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="entry-meta">Oct 2024 - Dec 2024</div>
+    <div class="entry-body">
+      <h3>Random Forests and Condorcet's Jury Theorem</h3>
+      <p>
+        Investigated Random Forests through Condorcet's Jury Theorem and
+        applied the method to early-onset diabetes prediction.
+      </p>
+    </div>
+  </article>
+</div>
+
+## Work
+
+<div class="entry-list">
+  <article class="entry">
+    <div class="entry-meta">Sep 2025 - Present</div>
+    <div class="entry-body">
+      <h3>Math Learning Center Tutor</h3>
+      <p>
+        Provide walk-in tutoring for Calculus I and II and lead weekly study
+        groups.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="entry-meta">Jul 2025 - Aug 2025</div>
+    <div class="entry-body">
+      <h3>Wealth Management Summer Intern</h3>
+      <p>
+        Produced market briefs and presentation materials across
+        frontier-industry themes, supporting client briefings and investment
+        research.
+      </p>
+    </div>
+  </article>
+</div>

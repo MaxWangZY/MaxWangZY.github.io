@@ -1,9 +1,10 @@
 ---
 layout: default
-title: "The AI Trade Met Its Funding Cost"
+title: "Who Pays for Compute?"
+description: "The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute."
 ---
 
-# June 6, 2026: The AI Trade Met Its Funding Cost
+# Who Pays for Compute?
 
 Author: Max  
 Date: June 6, 2026

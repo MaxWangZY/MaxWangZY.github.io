@@ -9,8 +9,17 @@ This is a GitHub Pages site built with Jekyll.
 - Blog index: `blog.md`
 - Blog posts: `_posts/YYYY-MM-DD-title.md`
 - Homepage artifacts: `_data/artifacts.yml`
+- CV PDF: `assets/cv/Zhengyang_Wang_CV.pdf`
+- Portrait: `assets/images/portrait.jpg`
 - Site settings: `_config.yml`
 - Styles: `assets/css/style.css`
+
+## Update CV and portrait
+
+- Replace `assets/cv/Zhengyang_Wang_CV.pdf` with the latest CV PDF.
+- Replace `assets/images/portrait.jpg` with the preferred portrait image.
+- Keep those filenames stable so site links do not need to change.
+- Update `experience.md` manually with concise highlights from the CV.
 
 ## Add a blog post
 

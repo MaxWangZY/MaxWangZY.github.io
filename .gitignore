@@ -3,3 +3,13 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 Gemfile.lock
+.DS_Store
+
+# LaTeX CV build byproducts
+assets/cv/*.aux
+assets/cv/*.log
+assets/cv/*.out
+assets/cv/*.gz
+assets/cv/*.fls
+assets/cv/*.fdb_latexmk
+assets/cv/*.toc
