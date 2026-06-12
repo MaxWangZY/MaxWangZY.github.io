@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Macro Sets the Price"
+title: "Rates Set the Terms"
 description: "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
 ---
 
-# Macro Sets the Price
+# Rates Set the Terms
 
 Author: Max  
 Date: June 9, 2026

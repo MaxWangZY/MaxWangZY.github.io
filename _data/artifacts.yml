@@ -1,16 +1,16 @@
 - type: blog
   label: Blog
-  title: Macro Sets the Price
+  title: Rates Set the Terms
   date: Jun 9, 2026
-  url: /blog/2026/06/09/macro-sets-the-price/
+  url: /blog/2026/06/09/rates-set-the-terms/
   preview:
     - "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
 
 - type: blog
   label: Blog
-  title: Who Pays for Compute?
+  title: Funding the Next Unit of Compute
   date: Jun 6, 2026
-  url: /blog/2026/06/06/who-pays-for-compute/
+  url: /blog/2026/06/06/funding-the-next-unit-of-compute/
   preview:
     - The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute.
 

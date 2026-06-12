@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Who Pays for Compute?"
+title: "Funding the Next Unit of Compute"
 description: "The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute."
 ---
 
-# Who Pays for Compute?
+# Funding the Next Unit of Compute
 
 Author: Max  
 Date: June 6, 2026

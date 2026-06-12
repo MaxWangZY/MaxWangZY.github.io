@@ -12,7 +12,7 @@ title: Home
     <div class="intro">
       <p>
         I go by Max. I'm a rising senior at the University of Michigan studying
-        Honors Mathematics and Honors Data Science. My research interests
+        Mathematics and Data Science. My research interests
         include constrained optimization, vehicle routing problems, and game
         theory. This site collects my research, projects, and notes on markets
         and systems. Here is my
