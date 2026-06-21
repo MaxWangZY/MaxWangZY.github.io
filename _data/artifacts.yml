@@ -20,7 +20,7 @@
   date: Mar 2026 - Present
   url: /experience/
   preview:
-    - Mixed-integer dispatch planning for 700+ fuel stations, modeling operational constraints and solver performance with HiGHS.
+    - Mixed-integer dispatch planning for AKWA Group's Morocco operations, covering 700+ stations and solved with HiGHS.
 
 - type: research
   label: Research
@@ -30,8 +30,8 @@
   preview:
     - Nonatomic routing games with strategic mediators, private recommendations, and obedience constraints.
 
-- type: research
-  label: Research
+- type: project
+  label: Project
   title: Black Box Inverse Solver
   date: Jan 2026 - May 2026
   url: /experience/

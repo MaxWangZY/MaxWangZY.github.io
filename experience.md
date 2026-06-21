@@ -23,10 +23,14 @@ permalink: /experience/
     <div class="entry-body">
       <h3>Fuel Dispatch Optimization</h3>
       <p>
-        Developing a mixed-integer optimization framework for fuel dispatch
-        planning across 700+ service stations, with truck compartments, depot
-        eligibility, product compatibility, fleet type, and operational
-        constraints solved using HiGHS.
+        Developing a mixed-integer optimization framework in Python with HiGHS
+        for AKWA Group's fuel dispatch operations in Morocco, covering 700+
+        stations and truck-, depot-, and product-level constraints.
+      </p>
+      <p>
+        Also building an LLM-assisted solution repair workflow that lets
+        dispatchers express manual adjustments or temporary constraints in
+        natural language and receive rerouting recommendations.
       </p>
     </div>
   </article>
@@ -39,30 +43,6 @@ permalink: /experience/
         Studying nonatomic routing games with multiple strategic mediators,
         private route recommendations, and obedience constraints, including
         mediator fragmentation on Braess-network experiments.
-      </p>
-    </div>
-  </article>
-
-  <article class="entry">
-    <div class="entry-meta">Jan 2026 - May 2026</div>
-    <div class="entry-body">
-      <h3>Black Box Inverse Solver</h3>
-      <p>
-        Built a meta-learning workflow for uncertainty quantification in PDE
-        inverse problems, comparing Transformer, Set Transformer, and Set2Seq
-        models for calibrated joint confidence intervals.
-      </p>
-    </div>
-  </article>
-
-  <article class="entry">
-    <div class="entry-meta">Jun 2025 - Jan 2026</div>
-    <div class="entry-body">
-      <h3>Clinical NLP and Privacy-Preserving Methods</h3>
-      <p>
-        Built clinical NLP pipelines on MIMIC-IV data and reviewed
-        privacy-enhancing technologies in omics research, with emphasis on
-        reproducibility and privacy-preserving machine learning.
       </p>
     </div>
   </article>
@@ -84,13 +64,38 @@ permalink: /experience/
 
 <div class="entry-list">
   <article class="entry">
+    <div class="entry-meta">Jan 2026 - May 2026</div>
+    <div class="entry-body">
+      <h3>Black Box Inverse Solver</h3>
+      <p>
+        Built a meta-learning workflow for uncertainty quantification in PDE
+        inverse problems, mapping sparse spatiotemporal observations to
+        calibrated joint confidence intervals over PDE parameters.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
     <div class="entry-meta">Apr 2026</div>
     <div class="entry-body">
       <h3>Optimization Method Benchmarks</h3>
       <p>
-        Benchmarked gradient descent, Newton, quasi-Newton, and trust-region
-        methods on unconstrained optimization problems, comparing convergence
-        behavior and runtime tradeoffs.
+        Compared gradient, Newton, quasi-Newton, and trust-region methods
+        across 12 unconstrained optimization problems, finding that L-BFGS
+        offered the strongest practical balance between convergence rate and
+        runtime.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
+    <div class="entry-meta">Jun 2025 - Jan 2026</div>
+    <div class="entry-body">
+      <h3>Clinical NLP and Privacy-Preserving Methods</h3>
+      <p>
+        Built clinical NLP pipelines on MIMIC-IV notes using CUI co-occurrence
+        features and contributed literature screening and data extraction for a
+        scoping review on privacy-enhancing technologies in omics research.
       </p>
     </div>
   </article>
