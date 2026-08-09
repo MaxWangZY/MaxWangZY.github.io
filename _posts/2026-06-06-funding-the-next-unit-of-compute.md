@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Funding the Next Unit of Compute"
-description: "The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute."
+description: "The AI trade cracked the moment the question shifted from demand for compute to who funds it."
 ---
 
 # Funding the Next Unit of Compute
@@ -11,7 +11,7 @@ Date: June 6, 2026
 
 ## Summary
 
-The AI trade did not crack because demand disappeared. It cracked because the market finally asked who pays for the next unit of compute.
+The AI trade cracked the moment the question shifted from demand for compute to who funds it.
 
 On **June 5, 2026**, the **Nasdaq Composite fell 4.18%**, its worst single-day percentage loss since **April 2025**. The **S&P 500 fell 2.64%**, and the **Dow fell 1.35%**.
 
