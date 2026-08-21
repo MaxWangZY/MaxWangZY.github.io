@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "Rates Set the Terms"
-description: "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
+title: Rates Set the Terms
+description: After Friday's selloff, the AI trade hinges on May CPI, Kevin Warsh's first FOMC meeting, and the SpaceX IPO's pull on liquidity.
 ---
 
 # Rates Set the Terms
@@ -11,7 +11,7 @@ Date: June 9, 2026
 
 ## Summary
 
-The market recovered some ground on Monday, while the main question remained open. After the Nasdaq fell **4.18%** on Friday, June 5, it rebounded **0.9%** on Monday, June 8. The S&P 500 rose **0.3%**, while the Dow fell **0.2%**.
+The market recovered some ground on Monday, while the main question remained open. After the Nasdaq fell 4.18% on Friday, June 5, it rebounded 0.9% on Monday, June 8. The S&P 500 rose 0.3%, while the Dow fell 0.2%.
 
 The rebound was concentrated in the same AI and semiconductor stocks that were hit hardest on Friday. The **PHLX Semiconductor Index rose 5.6%**, which showed that investors were still willing to buy the AI infrastructure trade on weakness.
 
@@ -27,9 +27,9 @@ By Tuesday, that tension was visible again. AI and chip stocks came back under p
 
 ## Why CPI Matters
 
-The May CPI report is the next macro gate. Consensus expects headline CPI to rise **4.2% YoY**, up from **3.8%** in April. Core CPI is expected at **2.9% YoY**, up from **2.8%**.
+The May CPI report is the next macro gate. Consensus expects headline CPI to rise **4.2% YoY**, up from 3.8% in April. Core CPI is expected at 2.9% YoY, up from 2.8%.
 
-Those numbers matter because the market has already absorbed a strong jobs report. Nonfarm payrolls rose **172,000** in May, roughly double consensus. In a normal expansion, that would support equities. In the current setup, it makes rate cuts harder to justify while inflation risk is already moving back into focus.
+Those numbers matter because the market has already absorbed a strong jobs report. Nonfarm payrolls rose 172,000 in May, roughly double consensus. In a normal expansion, that would support equities. In the current setup, it makes rate cuts harder to justify while inflation risk is already moving back into focus.
 
 For AI equities, the link is direct. AI infrastructure requires immediate spending on chips, memory, power, networking, construction, and financing. The cash flows are farther out. Higher rates lower the value of those future cash flows and raise the cost of building the capacity needed to generate them. That is why the same economic data can be positive for growth and negative for high-multiple AI stocks.
 
@@ -49,7 +49,7 @@ The key point is practical: if investors want to buy SpaceX, some of that capita
 
 ## The 2022 Parallel
 
-The closest historical reference is 2022, with important limits. In 2022, inflation peaked at **9.1% YoY** in June. The Fed responded with aggressive tightening, including a **75 bp** hike in June, and the Nasdaq Composite finished the year down roughly **33%**.
+The closest historical reference is 2022, with important limits. In 2022, inflation peaked at 9.1% YoY in June. The Fed responded with aggressive tightening, including a 75 bp hike in June, and the Nasdaq Composite finished the year down roughly 33%.
 
 The current setup is milder. Inflation is far below the 2022 peak, and AI infrastructure demand is much stronger than many of the speculative growth stories that led the prior cycle. Still, the pressure point is similar. When inflation moves higher and the Fed reaction function becomes more restrictive, valuation support for long-duration assets can disappear quickly.
 
@@ -65,15 +65,13 @@ The next one to three months may be defined by volatility rather than direction.
 
 The practical watchlist is:
 
-1. **May CPI:** whether headline inflation meets or exceeds the expected **4.2% YoY** print.
+1. **May CPI:** whether headline inflation meets or exceeds the expected print.
 2. **Core inflation:** whether price pressure is spreading beyond energy.
 3. **Fed language:** whether Warsh's first meeting pushes the market toward future hikes.
 4. **SpaceX IPO liquidity:** whether the offering pulls risk appetite away from existing AI winners.
 5. **Semiconductor breadth:** whether rebounds are broad or limited to the largest momentum names.
 
 The market remains committed to AI infrastructure, but it is now questioning the price, the funding path, and the macro backdrop. That combination is enough to keep volatility elevated.
-
-Disclaimer: This note is for research and commentary only. It is not investment advice.
 
 ## Sources
 
@@ -91,3 +89,7 @@ Disclaimer: This note is for research and commentary only. It is not investment 
 - Federal Reserve, "Federal Reserve issues FOMC statement," June 15, 2022: https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm
 - BLS, "Consumer Price Index - June 2022," July 13, 2022: https://www.bls.gov/news.release/archives/cpi_07132022.htm
 - CNBC, "Stocks fall to end Wall Street's worst year since 2008, S&P 500 finishes 2022 down nearly 20%," December 30, 2022: https://www.cnbc.com/2022/12/30/stock-market-futures-open-to-close-news.html
+
+## Disclaimer
+
+This post is for research and commentary only. It is not investment advice.

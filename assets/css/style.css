@@ -355,7 +355,7 @@ p {
 }
 
 .page-post h1 {
-  font-size: clamp(2rem, 5vw, 3.15rem);
+  font-size: clamp(1.75rem, 4vw, 2.3rem);
 }
 
 .page-post h2 {
