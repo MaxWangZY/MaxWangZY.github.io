@@ -4,8 +4,6 @@ title: Blog
 permalink: /blog/
 ---
 
-# Blog
-
 <p class="page-intro">
   Analytical notes on markets, systems, and ideas I am trying to understand more
   clearly.

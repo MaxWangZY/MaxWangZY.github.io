@@ -1,5 +1,13 @@
 - type: blog
   label: Blog
+  title: Commoditizing AI Models
+  date: Aug 21, 2026
+  url: /blog/2026/08/21/commoditizing-ai-models/
+  preview:
+    - The open-weights wave, from Jensen Huang's first post to the Amodei–Baker exchange, and what commoditizing the model layer means for where AI value settles.
+
+- type: blog
+  label: Blog
   title: Rates Set the Terms
   date: Jun 9, 2026
   url: /blog/2026/06/09/rates-set-the-terms/

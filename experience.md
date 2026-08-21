@@ -4,8 +4,6 @@ title: Experience
 permalink: /experience/
 ---
 
-# Experience
-
 <p class="page-intro">
   A concise companion to my CV, focused on research, projects, and work that
   connect optimization, technical systems, and market analysis.

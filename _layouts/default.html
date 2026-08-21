@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.description | default: site.description }}">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400..800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400..800;1,6..72,400..700&amp;display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body class="{% if page.url == '/' %}page-home{% elsif page.url == '/experience/' %}page-experience{% elsif page.url == '/blog/' %}page-blog{% elsif page.date %}page-post{% else %}page-default{% endif %}">
@@ -15,7 +18,10 @@
       {% assign current_section = 'blog' %}
     {% endif %}
     <header class="site-header">
-      <a class="brand" href="{{ '/' | relative_url }}">"Optimization is everywhere."</a>
+      <div class="topbar">
+        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <p class="tagline">"Optimization is everywhere."</p>
+      </div>
       <nav class="nav" aria-label="Primary navigation">
         <a{% if current_section == 'home' %} class="active" aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
         <a{% if current_section == 'experience' %} class="active" aria-current="page"{% endif %} href="{{ '/experience/' | relative_url }}">Experience</a>
