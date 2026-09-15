@@ -11,12 +11,7 @@ title: Home
     <h1>Zhengyang Wang</h1>
     <div class="intro">
       <p>
-        I go by <strong>Max</strong>. I'm a rising senior at the University of Michigan studying
-        Mathematics and Data Science. My research interests
-        include constrained optimization, vehicle routing problems, and game
-        theory. This site collects my research, projects, and notes on markets
-        and systems. Here is my
-        <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">CV</a>.
+        I go by <strong>Max</strong>. I'm a senior at the University of Michigan studying Mathematics and Data Science. My research interests include machine learning for supply chain optimization, as well as routing games and information design. This site collects my research, projects, and notes on markets and systems. Here is my <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">CV</a>.
       </p>
     </div>
   </div>
