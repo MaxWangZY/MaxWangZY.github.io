@@ -17,18 +17,31 @@ permalink: /experience/
 
 <div class="entry-list">
   <article class="entry">
+    <div class="entry-meta">Aug 2026 - Present</div>
+    <div class="entry-body">
+      <h3>LLM-Guided Solver Delegation for Vehicle Routing</h3>
+      <p>
+        Investigating LLM-generated policies for subproblem selection in
+        large-scale capacitated vehicle routing at MIT Data Science Lab,
+        with reproducible evaluation against heuristic and learned baselines.
+      </p>
+    </div>
+  </article>
+
+  <article class="entry">
     <div class="entry-meta">Mar 2026 - Present</div>
     <div class="entry-body">
       <h3>Fuel Dispatch Optimization</h3>
       <p>
-        Developing a mixed-integer optimization framework in Python with HiGHS
-        for AKWA Group's fuel dispatch operations in Morocco, covering 700+
-        stations and truck-, depot-, and product-level constraints.
+        Built mixed-integer dispatch planning for AKWA Group's 700+ station
+        network in Morocco. Retrospective benchmarks using the same orders
+        and trucks as historical plans showed 25.5% lower average travel
+        distance and 6% more delivered volume, with 97% full-order fulfillment
+        versus 99.2% historically.
       </p>
       <p>
-        Also building an LLM-assisted solution repair workflow that lets
-        dispatchers express manual adjustments or temporary constraints in
-        natural language and receive rerouting recommendations.
+        Built a replenishment order predictor (ROC-AUC 0.92 on a chronological
+        holdout) and an LLM-assisted workflow for dispatcher-requested rerouting.
       </p>
     </div>
   </article>
@@ -36,11 +49,12 @@ permalink: /experience/
   <article class="entry">
     <div class="entry-meta">Jan 2026 - Present</div>
     <div class="entry-body">
-      <h3>Multi-Mediator Routing Games</h3>
+      <h3>Multi-Mediator Congestion Games</h3>
       <p>
-        Studying nonatomic routing games with multiple strategic mediators,
-        private route recommendations, and obedience constraints, including
-        mediator fragmentation on Braess-network experiments.
+        Developed a nonatomic congestion-game model with strategic mediators
+        and private route recommendations. Defined fragmented obedient
+        equilibrium, proved existence under lower-hemicontinuity assumptions,
+        and studied fragmentation on Braess networks.
       </p>
     </div>
   </article>
@@ -57,6 +71,13 @@ permalink: /experience/
     </div>
   </article>
 </div>
+
+## Working Papers & Publications
+
+1. **LLM-Guided Solver Delegation for Large-Scale Vehicle Routing Problems** (2026). Invited presentation at the INFORMS 2026 Annual Meeting.
+2. **Fragmented Obedient Mediation in Congestion Games** (2026). Manuscript in preparation.
+3. **Black-box Inverse Solver** (2026). Manuscript under revision.
+4. **Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies** (2026). Available on SSRN.
 
 ## Projects
 

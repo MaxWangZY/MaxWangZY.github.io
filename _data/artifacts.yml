@@ -1,3 +1,11 @@
+- type: research
+  label: Research
+  title: LLM-Guided Solver Delegation for Vehicle Routing
+  date: Aug 2026 - Present
+  url: /experience/
+  preview:
+    - LLM-generated policies for subproblem selection in large-scale vehicle routing. Invited presentation at INFORMS 2026.
+
 - type: blog
   label: Blog
   title: Commoditizing AI Models
@@ -28,23 +36,15 @@
   date: Mar 2026 - Present
   url: /experience/
   preview:
-    - Mixed-integer dispatch planning for AKWA Group's Morocco operations, covering 700+ stations and solved with HiGHS.
+    - Dispatch optimization, replenishment prediction, and LLM-assisted rerouting for AKWA Group's 700+ station network in Morocco.
 
 - type: research
   label: Research
-  title: Multi-Mediator Routing Games
+  title: Multi-Mediator Congestion Games
   date: Jan 2026 - Present
   url: /experience/
   preview:
-    - Nonatomic routing games with strategic mediators, private recommendations, and obedience constraints.
-
-- type: project
-  label: Project
-  title: Black Box Inverse Solver
-  date: Jan 2026 - May 2026
-  url: /experience/
-  preview:
-    - Meta-learning for uncertainty quantification in PDE inverse problems and calibrated joint confidence intervals.
+    - Fragmented obedient equilibrium in congestion games with strategic mediators and private route recommendations.
 
 - more: true
   url: /experience/

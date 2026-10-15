@@ -263,6 +263,12 @@ p {
   border-top: 2px solid var(--text);
 }
 
+.page-experience h2 + ol {
+  margin-top: 8px;
+  border-top: 2px solid var(--text);
+  padding-top: 26px;
+}
+
 .artifact-meta,
 .entry-meta,
 .post-row time {
