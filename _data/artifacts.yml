@@ -43,8 +43,10 @@
   title: Multi-Mediator Congestion Games
   date: Jan 2026 - Present
   url: /experience/
+  manuscript_url: https://arxiv.org/abs/2610.39225
+  manuscript_label: Manuscript (arXiv)
   preview:
-    - Fragmented obedient equilibrium in congestion games with strategic mediators and private route recommendations.
+    - Fragmented obedient equilibrium in routing games with competing mediators, with an existence result and exact moment reformulation.
 
 - more: true
   url: /experience/

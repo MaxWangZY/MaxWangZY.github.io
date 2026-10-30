@@ -51,11 +51,14 @@ permalink: /experience/
     <div class="entry-body">
       <h3>Multi-Mediator Congestion Games</h3>
       <p>
-        Developed a nonatomic congestion-game model with strategic mediators
-        and private route recommendations. Defined fragmented obedient
-        equilibrium, proved existence under lower-hemicontinuity assumptions,
-        and studied fragmentation on Braess networks.
+        Studied routing games with competing mediators and user obedience
+        constraints. Defined fragmented obedient equilibrium and proved
+        existence under a lower-hemicontinuity assumption. Derived an exact
+        moment reformulation under affine latencies and independent mediator
+        sampling, giving semidefinite best-response problems for networks
+        with at most four routes.
       </p>
+      <p><a href="https://arxiv.org/abs/2610.39225">Manuscript (arXiv)</a></p>
     </div>
   </article>
 
@@ -75,9 +78,9 @@ permalink: /experience/
 ## Working Papers & Publications
 
 1. **LLM-Guided Solver Delegation for Large-Scale Vehicle Routing Problems** (2026). Invited presentation at the INFORMS 2026 Annual Meeting.
-2. **Fragmented Obedient Mediation in Congestion Games** (2026). Manuscript in preparation.
+2. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
 3. **Black-box Inverse Solver** (2026). Manuscript under revision.
-4. **Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies** (2026). Available on SSRN.
+4. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
 
 ## Projects
 
@@ -116,6 +119,7 @@ permalink: /experience/
         features and contributed literature screening and data extraction for a
         scoping review on privacy-enhancing technologies in omics research.
       </p>
+      <p><a href="https://doi.org/10.2139/ssrn.7164458">Manuscript (SSRN)</a></p>
     </div>
   </article>
 

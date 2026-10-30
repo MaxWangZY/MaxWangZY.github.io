@@ -43,6 +43,9 @@ title: Home
                 {% for paragraph in artifact.preview %}
                   <p>{{ paragraph }}</p>
                 {% endfor %}
+                {% if artifact.manuscript_url %}
+                  <p><a href="{{ artifact.manuscript_url | escape }}">{{ artifact.manuscript_label | escape }}</a></p>
+                {% endif %}
               </div>
             </div>
           </article>
