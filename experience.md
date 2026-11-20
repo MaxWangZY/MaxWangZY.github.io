@@ -11,7 +11,7 @@ permalink: /experience/
 ## Working Papers & Publications
 
 1. **[Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing]({{ '/papers/revisiting-learning-to-delegate/' | relative_url }})** (2026). Working paper.
-2. **[Incentive-Aligned Vehicle Routing with LLM Agents](https://submissions.mirasmart.com/InformsAnnual2026/Publication/ProgramBook.aspx#:~:text=Incentive%2DAligned%20Vehicle%20Routing%20with%20LLM%20Agents)** (2026). Invited presentation at the INFORMS Annual Meeting, session WB55.
+2. **[Incentive-Aligned Vehicle Routing with LLM Agents](https://info.informs.org/hubfs/3449182/Program_Archives/Annual/2026%20Annual%20Meeting%20Program%20Book.pdf#page=1793)** (2026). Invited presentation at the INFORMS Annual Meeting, session WB55, PDF page 1793.
 3. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
 4. **Black-box Inverse Solver** (2026). Manuscript under revision.
 5. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
