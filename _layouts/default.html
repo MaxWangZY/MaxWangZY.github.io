@@ -11,15 +11,20 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body class="{% if page.url == '/' %}page-home{% elsif page.url == '/experience/' %}page-experience{% elsif page.url == '/blog/' %}page-blog{% elsif page.date %}page-post{% else %}page-default{% endif %}">
-    {% assign current_section = 'home' %}
-    {% if page.url == '/experience/' %}
+    {% if page.url == '/' %}
+      {% assign current_section = 'home' %}
+    {% elsif page.url == '/experience/' %}
       {% assign current_section = 'experience' %}
     {% elsif page.url == '/blog/' or page.date %}
       {% assign current_section = 'blog' %}
     {% endif %}
     <header class="site-header">
       <div class="topbar">
-        <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% if current_section == 'home' %}
+          <h1 class="home-masthead">{{ site.title }}</h1>
+        {% else %}
+          <a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        {% endif %}
         <p class="tagline">"Optimization is everywhere."</p>
       </div>
       <nav class="nav" aria-label="Primary navigation">
@@ -27,7 +32,9 @@
         <a{% if current_section == 'experience' %} class="active" aria-current="page"{% endif %} href="{{ '/experience/' | relative_url }}">Experience</a>
         <a{% if current_section == 'blog' %} class="active" aria-current="page"{% endif %} href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">CV</a>
-        <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        {% unless current_section == 'home' %}
+          <a href="https://github.com/{{ site.github_username }}">GitHub</a>
+        {% endunless %}
       </nav>
     </header>
 

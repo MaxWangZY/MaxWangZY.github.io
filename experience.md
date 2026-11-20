@@ -4,19 +4,22 @@ title: Experience
 permalink: /experience/
 ---
 
-<p class="page-intro">
-  A concise companion to my CV, focused on research, projects, and work that
-  connect optimization, technical systems, and market analysis.
-</p>
-
 <p class="page-action">
   <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">View full CV</a>
 </p>
 
-## Research
+## Working Papers & Publications
+
+1. **[Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing]({{ '/papers/revisiting-learning-to-delegate/' | relative_url }})** (2026). Working paper.
+2. **[Incentive-Aligned Vehicle Routing with LLM Agents](https://submissions.mirasmart.com/InformsAnnual2026/Publication/ProgramBook.aspx#:~:text=Incentive%2DAligned%20Vehicle%20Routing%20with%20LLM%20Agents)** (2026). Invited presentation at the INFORMS Annual Meeting, session WB55.
+3. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
+4. **Black-box Inverse Solver** (2026). Manuscript under revision.
+5. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
+
+## Research Experience
 
 <div class="entry-list">
-  <article class="entry">
+  <article class="entry" id="llm-guided-solver-delegation">
     <div class="entry-meta">Aug 2026 - Present</div>
     <div class="entry-body">
       <h3>LLM-Guided Solver Delegation for Vehicle Routing</h3>
@@ -28,7 +31,7 @@ permalink: /experience/
     </div>
   </article>
 
-  <article class="entry">
+  <article class="entry" id="fuel-dispatch-optimization">
     <div class="entry-meta">Mar 2026 - Present</div>
     <div class="entry-body">
       <h3>Fuel Dispatch Optimization</h3>
@@ -46,17 +49,17 @@ permalink: /experience/
     </div>
   </article>
 
-  <article class="entry">
+  <article class="entry" id="multi-mediator-congestion-games">
     <div class="entry-meta">Jan 2026 - Present</div>
     <div class="entry-body">
       <h3>Multi-Mediator Congestion Games</h3>
       <p>
-        Studied routing games with competing mediators and user obedience
-        constraints. Defined fragmented obedient equilibrium and proved
-        existence under a lower-hemicontinuity assumption. Derived an exact
-        moment reformulation under affine latencies and independent mediator
-        sampling, giving semidefinite best-response problems for networks
-        with at most four routes.
+        Studied routing games with competing mediators and obedience
+        constraints for users sharing one origin–destination pair. Proved
+        existence of fragmented obedient equilibria under a lower-hemicontinuity
+        assumption. Under affine edge latencies and independent mediator
+        sampling, derived an exact reformulation in first and second flow
+        moments that preserves mediator best responses and equilibria.
       </p>
       <p><a href="https://arxiv.org/abs/2610.39225">Manuscript (arXiv)</a></p>
     </div>
@@ -74,13 +77,6 @@ permalink: /experience/
     </div>
   </article>
 </div>
-
-## Working Papers & Publications
-
-1. **LLM-Guided Solver Delegation for Large-Scale Vehicle Routing Problems** (2026). Invited presentation at the INFORMS 2026 Annual Meeting.
-2. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
-3. **Black-box Inverse Solver** (2026). Manuscript under revision.
-4. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
 
 ## Projects
 

@@ -1,52 +1,33 @@
-- type: research
-  label: Research
-  title: LLM-Guided Solver Delegation for Vehicle Routing
-  date: Aug 2026 - Present
-  url: /experience/
-  preview:
-    - LLM-generated policies for subproblem selection in large-scale vehicle routing. Invited presentation at INFORMS 2026.
+- title: Papers
+  entries:
+    - title: Revisiting Learning to Delegate
+      description: Working paper · 2026
+      url: /papers/revisiting-learning-to-delegate/
+      icon: "📄"
 
-- type: blog
-  label: Blog
-  title: Commoditizing AI Models
-  date: Aug 21, 2026
-  url: /blog/2026/08/21/commoditizing-ai-models/
-  preview:
-    - The open-weights wave, from Jensen Huang's first post to the Amodei–Baker exchange, and what commoditizing the model layer means for where AI value settles.
+    - title: Fragmented Obedient Equilibria in Routing Games
+      description: arXiv · 2026
+      url: https://arxiv.org/abs/2610.39225
+      icon: "📄"
 
-- type: blog
-  label: Blog
-  title: Rates Set the Terms
-  date: Jun 9, 2026
-  url: /blog/2026/06/09/rates-set-the-terms/
-  preview:
-    - "The market recovered some ground while the main question remained open: whether macro, rates, and liquidity would set the near-term price of the AI trade."
+    - title: Toward Scalable Privacy in Omics Research
+      description: SSRN · 2026
+      url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7164458
+      icon: "📄"
 
-- type: blog
-  label: Blog
-  title: Funding the Next Unit of Compute
-  date: Jun 6, 2026
-  url: /blog/2026/06/06/funding-the-next-unit-of-compute/
-  preview:
-    - The AI trade cracked the moment the question shifted from demand for compute to who funds it.
+- title: Research Experience
+  entries:
+    - title: LLM-Guided Solver Delegation
+      description: Subproblem selection for vehicle routing
+      url: /experience/#llm-guided-solver-delegation
+      icon: "🧩"
 
-- type: research
-  label: Research
-  title: Fuel Dispatch Optimization
-  date: Mar 2026 - Present
-  url: /experience/
-  preview:
-    - Dispatch optimization, replenishment prediction, and LLM-assisted rerouting for AKWA Group's 700+ station network in Morocco.
+    - title: Fuel Dispatch Optimization
+      description: Dispatch and replenishment for AKWA’s 700+ stations
+      url: /experience/#fuel-dispatch-optimization
+      icon: "🚚"
 
-- type: research
-  label: Research
-  title: Multi-Mediator Congestion Games
-  date: Jan 2026 - Present
-  url: /experience/
-  manuscript_url: https://arxiv.org/abs/2610.39225
-  manuscript_label: Manuscript (arXiv)
-  preview:
-    - Fragmented obedient equilibrium in routing games with competing mediators, with an existence result and exact moment reformulation.
-
-- more: true
-  url: /experience/
+    - title: Multi-Mediator Congestion Games
+      description: Route recommendations and user obedience
+      url: /experience/#multi-mediator-congestion-games
+      icon: "🔀"

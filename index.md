@@ -3,54 +3,61 @@ layout: default
 title: Home
 ---
 
-<section class="hero hero-with-portrait">
-  <figure class="portrait">
-    <img src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Portrait of Zhengyang Wang">
-  </figure>
-  <div class="hero-copy">
-    <h1>Zhengyang Wang</h1>
-    <div class="intro">
-      <p>
-        I go by <strong>Max</strong>. I'm a senior at the University of Michigan studying Mathematics and Data Science. My research interests include decision-making under uncertainty in supply chains, learning-based optimization, and routing games and information design. This site collects my research, projects, and notes on markets and systems. Here is my <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">CV</a>.
-      </p>
+<div class="home-body">
+  <aside class="home-profile" aria-label="Academic profile">
+    <img class="home-profile-photo" src="{{ '/assets/images/portrait.jpg' | relative_url }}" alt="Portrait of Zhengyang Wang">
+    <div>
+      <p class="home-affiliation">University of Michigan</p>
+      <p class="home-major">Mathematics &amp; Data Science</p>
+      <nav class="home-contact-links" aria-label="Contact links">
+        <a href="mailto:{{ site.email }}" aria-label="Email" title="Email">
+          <img src="{{ '/assets/icons/envelope.svg' | relative_url }}" width="18" height="18" alt="">
+        </a>
+        <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub" title="GitHub">
+          <img src="{{ '/assets/icons/github.svg' | relative_url }}" width="18" height="18" alt="">
+        </a>
+        <a href="https://linkedin.com/in/zmaxwang" aria-label="LinkedIn" title="LinkedIn">
+          <img src="{{ '/assets/icons/linkedin.svg' | relative_url }}" width="18" height="18" alt="">
+        </a>
+      </nav>
     </div>
-  </div>
-</section>
+  </aside>
 
-{% if site.data.artifacts.size > 0 %}
-  <section class="section">
-    <h2>Recent</h2>
-    <div class="artifact-list">
-      {% for artifact in site.data.artifacts %}
-        {% if artifact.more %}
-          <article class="artifact artifact-more">
-            <div class="artifact-meta"></div>
-            <div class="artifact-body">
-              <a class="artifact-dots" href="{{ artifact.url | relative_url }}" aria-label="View more experience">...</a>
-            </div>
-          </article>
-        {% else %}
-          <article class="artifact">
-            <div class="artifact-meta">
-              <a class="artifact-type" href="{{ artifact.url | relative_url }}">{{ artifact.label | downcase }}</a>
-              {% if artifact.date %}
-                <time>{{ artifact.date }}</time>
-              {% endif %}
-            </div>
-            <div class="artifact-body">
-              <h3><a href="{{ artifact.url | relative_url }}">{{ artifact.title }}</a></h3>
-              <div class="artifact-excerpt">
-                {% for paragraph in artifact.preview %}
-                  <p>{{ paragraph }}</p>
-                {% endfor %}
-                {% if artifact.manuscript_url %}
-                  <p><a href="{{ artifact.manuscript_url | escape }}">{{ artifact.manuscript_label | escape }}</a></p>
-                {% endif %}
-              </div>
-            </div>
-          </article>
-        {% endif %}
+  <div>
+    <p class="home-intro">
+      I go by <strong>Max</strong>. I study learning-based optimization, supply chain decisions under uncertainty,
+      and routing games. Here’s my <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">CV</a>.
+    </p>
+
+    <div class="home-highlights">
+      {% for group in site.data.artifacts %}
+        {% assign heading_id = group.title | slugify | prepend: 'home-' %}
+        <section aria-labelledby="{{ heading_id }}">
+          <h2 id="{{ heading_id }}" class="home-heading">{{ group.title | escape }}</h2>
+          <ul class="home-entries" role="list">
+            {% for item in group.entries %}
+              <li class="home-entry">
+                <span class="home-entry-icon" aria-hidden="true">{{ item.icon }}</span>
+                <div>
+                  <h3><a href="{{ item.url | relative_url | escape }}">{{ item.title | escape }}</a></h3>
+                  <p>{{ item.description | escape }}</p>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
       {% endfor %}
     </div>
+  </div>
+</div>
+
+{% if site.posts.size > 0 %}
+  <section class="home-blog" aria-labelledby="home-blog">
+    <h2 id="home-blog" class="home-heading">Blog</h2>
+    <ul class="home-blog-links" role="list">
+      {% for post in site.posts limit: 3 %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+      {% endfor %}
+    </ul>
   </section>
 {% endif %}

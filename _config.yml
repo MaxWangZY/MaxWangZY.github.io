@@ -8,6 +8,9 @@ github_username: MaxWangZY
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
+plugins:
+  - jekyll-redirect-from
+
 exclude:
   - Gemfile
   - Gemfile.lock
