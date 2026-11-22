@@ -238,8 +238,8 @@ p {
 
 .home-heading {
   margin: 0;
-  font-size: 1.2rem;
-  letter-spacing: 0.045em;
+  font: 700 0.85rem/1.35 var(--font-sans);
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
@@ -255,9 +255,6 @@ p {
 }
 
 .home-entry {
-  display: grid;
-  grid-template-columns: 16px minmax(0, 1fr);
-  gap: 12px;
   padding: 10px 0;
 }
 
@@ -265,14 +262,10 @@ p {
   border-top: 1px solid var(--line);
 }
 
-.home-entry-icon {
-  font-size: 1rem;
-  line-height: 1.35;
-}
-
 .home-entry h3 {
   margin: 0 0 3px;
   font-size: 1.18rem;
+  font-weight: 600;
   line-height: 1.2;
 }
 
@@ -356,6 +349,27 @@ p {
 .post-row:first-child,
 .entry:first-child {
   border-top: 2px solid var(--text);
+}
+
+.page-experience .entry:target {
+  scroll-margin-top: 24px;
+  background-color: #fff3cd;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page-experience .entry:target {
+    animation: experience-highlight 1s ease-out forwards;
+  }
+}
+
+@keyframes experience-highlight {
+  0%, 35% {
+    background-color: #fff3cd;
+  }
+
+  100% {
+    background-color: transparent;
+  }
 }
 
 .page-experience h2 + ol {

@@ -3,31 +3,25 @@
     - title: Revisiting Learning to Delegate
       description: Working paper · 2026
       url: /papers/revisiting-learning-to-delegate/
-      icon: "📄"
 
     - title: Fragmented Obedient Equilibria in Routing Games
       description: arXiv · 2026
       url: https://arxiv.org/abs/2610.39225
-      icon: "📄"
 
     - title: Toward Scalable Privacy in Omics Research
       description: SSRN · 2026
       url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7164458
-      icon: "📄"
 
 - title: Research Experience
   entries:
     - title: LLM-Guided Solver Delegation
       description: Subproblem selection for vehicle routing
       url: /experience/#llm-guided-solver-delegation
-      icon: "🧩"
 
     - title: Fuel Dispatch Optimization
       description: Dispatch and replenishment for AKWA’s 700+ stations
       url: /experience/#fuel-dispatch-optimization
-      icon: "🚚"
 
     - title: Multi-Mediator Congestion Games
       description: Route recommendations and user obedience
       url: /experience/#multi-mediator-congestion-games
-      icon: "🔀"

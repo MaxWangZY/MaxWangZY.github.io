@@ -37,11 +37,8 @@ title: Home
           <ul class="home-entries" role="list">
             {% for item in group.entries %}
               <li class="home-entry">
-                <span class="home-entry-icon" aria-hidden="true">{{ item.icon }}</span>
-                <div>
-                  <h3><a href="{{ item.url | relative_url | escape }}">{{ item.title | escape }}</a></h3>
-                  <p>{{ item.description | escape }}</p>
-                </div>
+                <h3><a href="{{ item.url | relative_url | escape }}">{{ item.title | escape }}</a></h3>
+                <p>{{ item.description | escape }}</p>
               </li>
             {% endfor %}
           </ul>
