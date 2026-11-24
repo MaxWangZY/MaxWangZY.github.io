@@ -1,4 +1,5 @@
 - title: Papers
+  url: /experience/#working-papers--publications
   entries:
     - title: Revisiting Learning to Delegate
       description: arXiv · 2026
@@ -13,6 +14,7 @@
       url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7164458
 
 - title: Research Experience
+  url: /experience/#research-experience
   entries:
     - title: LLM-Guided Solver Delegation
       description: LLM-generated heuristics for large-scale vehicle routing

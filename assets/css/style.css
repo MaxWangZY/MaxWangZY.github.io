@@ -269,11 +269,13 @@ p {
   line-height: 1.2;
 }
 
+.home-heading a,
 .home-entry h3 a,
 .home-blog-links a {
   text-decoration: none;
 }
 
+.home-heading a:is(:hover, :focus-visible),
 .home-entry h3 a:is(:hover, :focus-visible),
 .home-blog-links a:is(:hover, :focus-visible) {
   text-decoration: underline;

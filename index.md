@@ -33,7 +33,9 @@ title: Home
       {% for group in site.data.artifacts %}
         {% assign heading_id = group.title | slugify | prepend: 'home-' %}
         <section aria-labelledby="{{ heading_id }}">
-          <h2 id="{{ heading_id }}" class="home-heading">{{ group.title | escape }}</h2>
+          <h2 id="{{ heading_id }}" class="home-heading">
+            <a href="{{ group.url | relative_url | escape }}">{{ group.title | escape }}</a>
+          </h2>
           <ul class="home-entries" role="list">
             {% for item in group.entries %}
               <li class="home-entry">
