@@ -10,7 +10,7 @@ permalink: /experience/
 
 ## Working Papers & Publications
 
-1. **[Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing]({{ '/papers/revisiting-learning-to-delegate/' | relative_url }})** (2026). Working paper.
+1. **[Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing]({{ '/papers/revisiting-learning-to-delegate/' | relative_url }})** (2026). arXiv preprint.
 2. **[Incentive-Aligned Vehicle Routing with LLM Agents](https://info.informs.org/hubfs/3449182/Program_Archives/Annual/2026%20Annual%20Meeting%20Program%20Book.pdf#page=1793)** (2026). Invited presentation at the INFORMS Annual Meeting, session WB55, PDF page 1793.
 3. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
 4. **Black-box Inverse Solver** (2026). Manuscript under revision.
@@ -24,9 +24,11 @@ permalink: /experience/
     <div class="entry-body">
       <h3>LLM-Guided Solver Delegation for Vehicle Routing</h3>
       <p>
-        Investigating LLM-generated policies for subproblem selection in
-        large-scale capacitated vehicle routing at MIT Data Science Lab,
-        with reproducible evaluation against heuristic and learned baselines.
+        Developed a hypothesis-driven framework for automatic heuristic design
+        that uses LLMs to discover which groups of routes to reoptimize in
+        large-scale capacitated vehicle routing. The selected heuristic achieved
+        comparable in-distribution performance while outperforming the neural
+        baselines on large-scale out-of-distribution instances.
       </p>
     </div>
   </article>

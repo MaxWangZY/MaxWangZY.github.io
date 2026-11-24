@@ -1,7 +1,7 @@
 - title: Papers
   entries:
     - title: Revisiting Learning to Delegate
-      description: Working paper · 2026
+      description: arXiv · 2026
       url: /papers/revisiting-learning-to-delegate/
 
     - title: Fragmented Obedient Equilibria in Routing Games
@@ -15,7 +15,7 @@
 - title: Research Experience
   entries:
     - title: LLM-Guided Solver Delegation
-      description: Subproblem selection for vehicle routing
+      description: LLM-generated heuristics for large-scale vehicle routing
       url: /experience/#llm-guided-solver-delegation
 
     - title: Fuel Dispatch Optimization
