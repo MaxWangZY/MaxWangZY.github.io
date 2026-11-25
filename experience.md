@@ -56,12 +56,14 @@ permalink: /experience/
     <div class="entry-body">
       <h3>Multi-Mediator Congestion Games</h3>
       <p>
-        Studied routing games with competing mediators and obedience
-        constraints for users sharing one origin–destination pair. Proved
-        existence of fragmented obedient equilibria under a lower-hemicontinuity
-        assumption. Under affine edge latencies and independent mediator
-        sampling, derived an exact reformulation in first and second flow
-        moments that preserves mediator best responses and equilibria.
+        Modeled competing navigation platforms whose users can ignore private
+        route recommendations. Proved existence of fragmented obedient
+        equilibrium under a lower-hemicontinuity assumption and derived an
+        exact flow-moment formulation under affine edge latencies and independent
+        platform randomization. Using semidefinite programming for best
+        responses on a Braess network, computed equilibria with total travel
+        costs up to about 17% below the Wardrop benchmark and close to the
+        social optimum with two equally sized populations at a looser tolerance.
       </p>
       <p><a href="https://arxiv.org/abs/2610.39225">Manuscript (arXiv)</a></p>
     </div>
