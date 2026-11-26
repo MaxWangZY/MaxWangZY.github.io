@@ -40,7 +40,12 @@ title: Home
             {% for item in group.entries %}
               <li class="home-entry">
                 <h3><a href="{{ item.url | relative_url | escape }}">{{ item.title | escape }}</a></h3>
-                <p>{{ item.description | escape }}</p>
+                <p>
+                  {{ item.description | escape }}
+                  {% if item.demo_url %}
+                    · <a href="{{ item.demo_url | relative_url | escape }}">Demo</a>
+                  {% endif %}
+                </p>
               </li>
             {% endfor %}
           </ul>
