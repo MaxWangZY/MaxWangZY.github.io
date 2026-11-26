@@ -8,13 +8,12 @@ permalink: /experience/
   <a href="{{ '/assets/cv/Zhengyang_Wang_CV.pdf' | relative_url }}">View full CV</a>
 </p>
 
-## Working Papers & Publications
+## Preprints & Presentations
 
 1. **[Revisiting Learning to Delegate: LLM Discovered Heuristics for Large-Scale Vehicle Routing]({{ '/papers/revisiting-learning-to-delegate/' | relative_url }})** (2026). arXiv preprint.
 2. **[Incentive-Aligned Vehicle Routing with LLM Agents](https://info.informs.org/hubfs/3449182/Program_Archives/Annual/2026%20Annual%20Meeting%20Program%20Book.pdf#page=1793)** (2026). Invited presentation at the INFORMS Annual Meeting, session WB55, PDF page 1793.
 3. **[Fragmented Obedient Equilibria in Routing Games](https://arxiv.org/abs/2610.39225)** (2026). Available on arXiv.
-4. **Black-box Inverse Solver** (2026). Manuscript under revision.
-5. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
+4. **[Toward Scalable Privacy in Omics Research: A Scoping Review of Privacy-Enhancing Technologies](https://doi.org/10.2139/ssrn.7164458)** (2026). Available on SSRN.
 
 ## Research Experience
 
@@ -92,7 +91,9 @@ permalink: /experience/
       <p>
         Built a meta-learning workflow for uncertainty quantification in PDE
         inverse problems, mapping sparse spatiotemporal observations to
-        calibrated joint confidence intervals over PDE parameters.
+        calibrated joint confidence intervals over PDE parameters. Across PDE
+        families, joint coverage was within 0.33 percentage points of the 95%
+        target.
       </p>
     </div>
   </article>
@@ -167,8 +168,8 @@ permalink: /experience/
     <div class="entry-body">
       <h3>Math Learning Center Tutor</h3>
       <p>
-        Provide walk-in tutoring for Calculus I and II and lead weekly study
-        groups.
+        Provide 9+ hours per week of walk-in tutoring in Calculus I–II and
+        Linear Algebra. Lead weekly study groups.
       </p>
     </div>
   </article>
